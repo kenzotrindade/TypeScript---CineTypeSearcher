@@ -1,48 +1,63 @@
-🎬 CinéSearch - Movie Discovery App
+<div align="center">
 
-CinéSearch est une application web moderne permettant de rechercher des films en temps réel. Ce projet est le deuxième jalon de mon parcours pour devenir développeur professionnel React. Il met l'accent sur la gestion asynchrone des données et le typage strict.
+# 🎬 CineTypeSearcher
 
-🚀 Fonctionnalités
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TS-Node](https://img.shields.io/badge/Environment-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
-    Recherche Dynamique : Interrogation de l'API OMDb via des appels asynchrones.
+<p>
+  <strong>A strongly-typed movie search engine.</strong><br>
+  Leveraging TypeScript's power to handle cinema data with precision and safety.
+</p>
 
-    Home Page Intelligente : Affichage d'une sélection par défaut au chargement.
+</div>
 
-    Responsive Design : Interface fluide s'adaptant aux mobiles et desktops (CSS Grid).
+---
 
-    Gestion d'Erreur : Feedback utilisateur en cas de recherche infructueuse ou de poster manquant.
+## 📋 About The Project
 
-🛠️ Stack Technique
+This repository hosts **CineTypeSearcher**, a project developed as part of the **Coda** curriculum. The goal was to build a functional movie search tool while strictly adhering to **TypeScript** principles.
 
-    Langage : TypeScript (Mode Strict)
+Unlike standard JavaScript projects, this application focuses on "Type Safety" to ensure that data fetched from movie APIs is correctly structured and handled throughout the code, reducing runtime errors.
 
-    Architecture : Modulaire (ES Modules)
+> **Specific Goal:** Implementing a movie search interface that fetches real-time data while practicing advanced TypeScript interfaces and asynchronous programming.
 
-    Stylisation : CSS3 (Variables natives, Flexbox, Grid)
+---
 
-    Outil de build : tsc (TypeScript Compiler)
+## ⚙️ Key Concepts Mastered
 
-📦 Installation et Lancement
+Transitioning from JavaScript to TypeScript requires a change in mindset. This project demonstrates my understanding of:
 
-    Cloner le dépôt :
-    Bash
+* **🛡️ Static Typing:** Defining strict `interfaces` and `types` for movie objects (Title, Year, Director, etc.).
+* **🌐 API Integration & Async/Await:** Handling asynchronous requests to movie databases while typing the JSON responses.
+* **🔍 Generics & Utility Types:** Creating reusable logic to handle different types of search results and filterings.
+* **🏗️ Error Handling:** Implementing robust error catching for failed API calls or missing data fields.
 
-    git clone https://github.com/ton-pseudo/cinesearch.git
-    cd cinesearch
+---
 
-    Compiler le TypeScript : Assure-toi d'avoir TypeScript installé globalement (npm install -g typescript).
-    Bash
+## 🛠️ Tech Stack
 
-    tsc -w
+| Tool | Usage |
+| :--- | :--- |
+| **TypeScript** | Main language for type-safe development. |
+| **Node.js** | Runtime environment for executing the logic. |
+| **Axios / Fetch** | Handling HTTP requests to movie APIs. |
+| **TS-Node** | Execution of TypeScript files during development. |
 
-    L'option -w permet d'écouter les modifications en temps réel.
+---
 
-    Lancer le projet : Ouvre index.html avec l'extension Live Server sur VS Code.
+## 🚀 How to Run
 
-🧠 Concepts Appris
-
-    Interfaces TypeScript : Typage complet des réponses API pour sécuriser la manipulation des données.
-
-    Async/Await : Gestion propre des promesses et des flux de données asynchrones.
-
-    DOM Manipulation Pro : Utilisation de Template Literals pour un rendu performant sans alourdir le script.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/kenzotrindade/TypeScript---CineTypeSearcher.git](https://github.com/kenzotrindade/TypeScript---CineTypeSearcher.git)
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the project in development mode:
+   ```bash
+   npm run dev
+4. Build the project:
+   ```bash
+   npm run build
