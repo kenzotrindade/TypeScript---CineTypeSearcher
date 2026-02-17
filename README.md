@@ -4,7 +4,6 @@
 
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![TS-Node](https://img.shields.io/badge/Environment-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
 <p>
   <strong>A strongly-typed movie search engine.</strong><br>
@@ -51,7 +50,7 @@ Transitioning from JavaScript to TypeScript requires a change in mindset. This p
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kenzotrindade/TypeScript---CineTypeSearcher.git](https://github.com/kenzotrindade/TypeScript---CineTypeSearcher.git)
+   git clone https://github.com/kenzotrindade/TypeScript---CineTypeSearcher.git
 2. Install dependencies:
    ```bash
    npm install
